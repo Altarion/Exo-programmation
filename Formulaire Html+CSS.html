@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FreeCodeCamp Survey Form</title>
+    
+    </head>
+
+    <body>
+    
+        <form method="post" action="traitement.php"> 
+
+            <label for="Name"> Name </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" size="20" required/>
+
+            <label for="email"> Adresse Mail : </label>
+                <input type="email" placeholder="Enter your Email" name="email" id="email" size="30" required>
+            
+            <label for="age"> Age |Additionnal) </label>
+                <input type="number" id="age" min="0" max="120" step="1"/>
+
+            <label for="role"> Which option best describes your current role? </label>
+                <select name="role" id="role">
+
+                    <optgroup label="role"></optgroup>
+
+                         <option value="Non-précisé"> Non-précisé </option>
+                         <option value="Femme"> Femme </option>
+                         <option value="Homme"> Homme </option>
+                         <option value="Non-binaire"> Non-binaire </option>
+
+                </select>
+
+    </body>
+
+</html>
