@@ -17,11 +17,14 @@
             <label for="Name"> Name </label>
                 <input type="text" name="name" id="name" placeholder="Enter your name" size="20" required/>
 <br>
+<br>
             <label for="email"> Adresse Mail : </label>
                 <input type="email" placeholder="Enter your Email" name="email" id="email" size="30" required>
+<br>
 <br>           
             <label for="age"> Age |Additionnal) </label>
                 <input type="number" id="age" min="0" max="120" step="1"/>
+<br>
 <br>
             <label for="role"> Which option best describes your current role? </label>
                 <select name="role" id="role">
@@ -42,6 +45,7 @@
                 <input type="radio" id="case3" name="groupe1" value="case 3" checked>
                     <label for="case3">Not sure</label>
 <br>
+<br>
             <label for="role2"> What is your favorite feature of freeCodeCamp? </label>
                 <select name="role2" id="role2">
         
@@ -54,8 +58,25 @@
                         
                 </select>                 
 
-                
-                
+            <p> What would you like to see improved? (check all that apply)</p>
+                <input type="checkbox" id="Front-end Projects" name="Front-end Projects" checked>
+                    <label for="Front-end Projects">Front-end Projects</label>     
+                <input type="checkbox" id="Back-end Projects" name="Back-end Projects" checked>
+                    <label for="back-end Projects">Back-end Projects</label>   
+                <input type="checkbox" id="Front-end Projects" name="Data Visualization" checked>
+                    <label for="Data Visualization">Data Visualization</label>   
+                <input type="checkbox" id="Challenges" name="Challenges" checked>
+                    <label for="Challenges">Challenges</label>
+                <input type="checkbox" id="Open source community" name="Open source community" checked>
+                    <label for="Open source community">Open source community</label>
+<br>
+<br>
+            <label for="info"> Any comments or suggestions?</label>
+<br>
+                <textarea name="infos +" id="info"></textarea>
+
+<br>
+            <input type="submit"/>
 
         </form>
 
