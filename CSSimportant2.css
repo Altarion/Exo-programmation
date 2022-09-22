@@ -1,0 +1,13 @@
+body 
+{
+     background-image: url(https://cdn.discordapp.com/attachments/1018769330344824834/1022478951760801864/unknown.png);
+     filter: invert(blue);
+     text-align: center;
+     font-size : medium;
+}
+.checkbox
+{ 
+    width: 25%;
+    margin: auto;
+    text-align: justify;
+  }
