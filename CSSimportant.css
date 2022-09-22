@@ -14,3 +14,9 @@ h1 {
   padding-right: 155px;
   background-color: rgb(255, 255, 255);
 }
+ul
+{ 
+  width: 65%;
+  margin: auto;
+  text-align: justify;
+}
