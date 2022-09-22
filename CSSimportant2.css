@@ -5,6 +5,9 @@ body
      text-align: center;
      font-size : medium;
 }
+h1 {
+    font-size: 40px;
+  }
 .checkbox
 { 
     width: 25%;
