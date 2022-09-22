@@ -10,6 +10,8 @@ h1 {
 }
 .photo {
   padding-bottom: 5px;
-  background-color: white;
+  padding-left: 155px;
+  padding-right: 155px;
+  background-color: rgb(255, 255, 255);
   clear : both
 }
