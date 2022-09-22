@@ -10,13 +10,12 @@ h1 {
 }
 .photo {
   padding-bottom: 5px;
-  padding-left: 155px;
-  padding-right: 155px;
+  margin: 10px;
   background-color: rgb(255, 255, 255);
 }
 ul
 { 
-  width: 65%;
+  width: 25%;
   margin: auto;
   text-align: justify;
 }
