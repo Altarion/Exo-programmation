@@ -1,10 +1,11 @@
 body 
 {
-     text-align: center;
-     font-size : medium;
+     text-align: left;
+     font-size : 111%;
      background: rgba(93, 120, 252, 0.657) url('https://cdn.discordapp.com/attachments/1018769330344824834/1022478951760801864/unknown.png');
     background-size: cover;
     background-blend-mode: lighten;
+    color: aliceblue;
 }
 form
 {
@@ -12,14 +13,24 @@ form
 }
 h1 
 {
-    font-size: 40px;
+    font-size: 25px;
+    text-align: center;
   }
+
+#pp
+{
+  text-align: center;
+}
 form
 {
   background-color: rgba(16, 16, 79, 0.88);
   margin: auto;
   margin-left: 35%;
   margin-right: 35%;
+  -moz-border-radius : 25px;
+  -webkit-border-radius : 25px;
+  border-radius : 3px;
+  
 }
 .checkbox
 { 

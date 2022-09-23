@@ -15,20 +15,20 @@
     
         <h1>FreeCodeCamps Survey Form</h1>
 
-        <p> thank you for taking the time to help us improve the platform</p>
+        <p id="pp"> thank you for taking the time to help us improve the platform</p>
 
         <form method="post" action="traitement.php"> 
 
             <label for="Name"> Name </label>
-            <br> <input type="text" name="name" id="name" placeholder="Enter your name" size="20" required/>
+            <br> <input type="text" name="name" id="name" placeholder="Enter your name" maxlength="50" size="50" required/>
 <br>
 <br>
             <label for="email"> Adresse Mail : </label>
-            <br> <input type="email" placeholder="Enter your Email" name="email" id="email" size="30" required>
+            <br> <input type="email" placeholder="Enter your Email" name="email" id="email" maxlength="50" size="50" required>
 <br>
 <br>           
             <label for="age"> Age |Additionnal) </label>
-            <br> <input type="number" id="age" min="0" max="120" step="1"/>
+            <br> <input type="number" id="age" min="0" max="120" step="1" size="50"/>
 <br>
 <br>
             <label for="role"> Which option best describes your current role? </label>
@@ -52,7 +52,7 @@
 <br>
 <br>
             <label for="role2"> What is your favorite feature of freeCodeCamp? </label>
-            <br> <select name="role2" id="role2">
+            <br> <select name="role2" id="role2" >
         
                     <optgroup label="role2"></optgroup>
         
@@ -78,7 +78,7 @@
 <br>
             <label for="info"> Any comments or suggestions?</label>
 <br>
-                <textarea name="infos +" id="info"></textarea>
+                <textarea name="infos +" id="info" size="50"></textarea>
 
 <br>
             <input type="submit"/>
