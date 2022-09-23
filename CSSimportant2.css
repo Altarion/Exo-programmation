@@ -26,7 +26,7 @@ form
 {
   background-color: rgba(16, 16, 79, 0.88);
   margin: auto;
-  width: 30%;
+  width: 40%;
   padding: 1%;
   -moz-border-radius : 25px;
   -webkit-border-radius : 25px;
@@ -41,5 +41,5 @@ form
 }
 .text
 {
-  width: 100%;
+  width: 98%;
 }

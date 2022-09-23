@@ -19,7 +19,7 @@
 
         <form method="post" action="traitement.php"> 
 
-            <label for="Name"> Name </label>
+            <label for="name"> Name </label>
             <br> <input type="text" name="name" id="name" placeholder="Enter your name" class="text" required/>
 <br>
 <br>
@@ -27,12 +27,12 @@
             <br> <input type="email" placeholder="Enter your Email" name="email" id="email" class="text" required>
 <br>
 <br>           
-            <label for="age"> Age |Additionnal) </label>
+            <label for="age"> Age (Additionnal) </label>
             <br> <input type="number" id="age" min="0" max="120" step="1" class="text"/>
 <br>
 <br>
             <label for="role"> Which option best describes your current role? </label>
-            <br> <select name="role" id="role">
+            <br> <select name="role" id="role" class="text">
 
                     <optgroup label="role"></optgroup>
 
@@ -64,16 +64,16 @@
                 </select>                 
 
             <p> What would you like to see improved? (check all that apply)</p>
-                <input type="checkbox" id="Front-end Projects" name="Front-end Projects" checked>
-                    <label for="Front-end Projects">Front-end Projects</label>     
-                <br><input type="checkbox" id="Back-end Projects" name="Back-end Projects" checked>
-                    <label for="back-end Projects">Back-end Projects</label>   
-               <br> <input type="checkbox" id="Front-end Projects" name="Data Visualization" checked>
-                    <label for="Data Visualization">Data Visualization</label>   
+                <input type="checkbox" id="Front-endProjects" name="Front-endProjects" checked>
+                    <label for="Front-endProjects">Front-end Projects</label>     
+                <br><input type="checkbox" id="back-endProjects" name="back-endProjects" checked>
+                    <label for="back-endProjects">Back-end Projects</label>   
+               <br> <input type="checkbox" id="DataVisualization" name="DataVisualization" checked>
+                    <label for="DataVisualization">Data Visualization</label>   
                <br> <input type="checkbox" id="Challenges" name="Challenges" checked>
                     <label for="Challenges">Challenges</label>
-              <br>  <input type="checkbox" id="Open source community" name="Open source community" checked>
-                    <label for="Open source community">Open source community</label>
+              <br>  <input type="checkbox" id="Opensourcecommunity" name="Opensourcecommunity" checked>
+                    <label for="Opensourcecommunity">Open source community</label>
 <br>
 <br>
             <label for="info"> Any comments or suggestions?</label>
@@ -81,7 +81,7 @@
                 <textarea name="infos +" id="info" class="text"></textarea>
 
 <br>
-            <input type="submit"/>
+            <input class="text" type="submit" value="Submit"/>
 
         </form>
 
